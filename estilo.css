@@ -1,0 +1,16 @@
+html {
+    font-size: 120%;
+}
+
+body {
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    background-color: #eee;
+}
+
+header {
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+}
