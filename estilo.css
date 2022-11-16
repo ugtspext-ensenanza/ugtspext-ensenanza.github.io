@@ -1,16 +1,45 @@
-html {
-    font-size: 120%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 110%;
+    line-height: 1.4;
     background-color: #eee;
 }
 
-header {
+main, header, footer {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 2em;
+}
+
+main {
     background-color: white;
+    padding: 2em;
+}
+
+header {
+    background-color: grey;
 }
 
 footer {
-    background-color: white;
+    background-color: grey;
+}
+
+figure {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-family: 'Ubuntu', Times, sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
 }
