@@ -56,15 +56,15 @@ header {
 @media only screen and (max-width: 400px) {
     #contenedor {
       background-color: lightyellow;
-      padding: 0;
+      padding: 0 0.7em;
     }
 
     main {
-        padding: 0.5em;
+        padding: 0.7em;
     }
     
     header {
-        padding: 0.4em 0.5em 0 0.5em;
+        padding: 0.8em 0.7em 0 0.7em;
     }
 }
 
@@ -100,14 +100,14 @@ p {
 }
 
 img#logo-ugt {
-    width: 25%;
+    width: 30%;
     min-width: 5em;
     max-width: 10em;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 img#lema-ugt {
-    width: 50%;
+    width: 60%;
     min-width: 10em;
     max-width: 20em;
 }
