@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 body {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -13,6 +18,7 @@ body {
 #contenedor {
     background-color: white;
     max-width: 650px;
+    min-width: 400px;
     margin: auto;
     padding: 0 2em;
 }
@@ -59,14 +65,14 @@ p {
 }
 
 img#logo-ugt {
-    width:25%;
+    width: 25%;
     min-width: 5em;
     max-width: 10em;
     margin-right: 2em;
 }
 
 img#lema-ugt {
-    width:50%;
+    width: 50%;
     min-width: 10em;
     max-width: 20em;
 }
