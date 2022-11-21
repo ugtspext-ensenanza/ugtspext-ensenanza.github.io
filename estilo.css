@@ -34,6 +34,23 @@ header {
     padding: 1.8em 2em 0 2em;
 }
 
+@media only screen and (max-width: 600px) {
+    #contenedor {
+      background-color: lightblue;
+      padding: 0 1em;
+    }
+
+    main {
+        padding: 1em;
+    }
+    
+    header {
+        padding: 0.9em 1em 0 1em;
+    }
+}
+
+
+
 figure {
     margin-bottom: 1em;
 }
