@@ -53,6 +53,20 @@ header {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    #contenedor {
+      background-color: lightyellow;
+      padding: 0;
+    }
+
+    main {
+        padding: 0.5em;
+    }
+    
+    header {
+        padding: 0.4em 0.5em 0 0.5em;
+    }
+}
 
 
 figure {
