@@ -34,39 +34,7 @@ header {
     padding: 1.8em 2em 0 2em;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 100%;
-    }
 
-    #contenedor {
-      background-color: lightblue;
-      padding: 0 1em;
-    }
-
-    main {
-        padding: 1em;
-    }
-    
-    header {
-        padding: 0.9em 1em 0 1em;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    #contenedor {
-      background-color: lightyellow;
-      padding: 0 0.7em;
-    }
-
-    main {
-        padding: 0.7em;
-    }
-    
-    header {
-        padding: 0.8em 0.7em 0 0.7em;
-    }
-}
 
 
 figure {
@@ -110,4 +78,51 @@ img#lema-ugt {
     width: 60%;
     min-width: 10em;
     max-width: 20em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 100%;
+    }
+
+    #contenedor {
+      background-color: lightblue;
+      padding: 0 1em;
+    }
+
+    main {
+        padding: 1em;
+    }
+    
+    header {
+        padding: 0.9em 1em 0 1em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #contenedor {
+      background-color: lightyellow;
+      padding: 0 0.7em;
+    }
+
+    main {
+        padding: 0.7em;
+    }
+    
+    header {
+        padding: 0.8em 0.7em 0 0.7em;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    img#logo-ugt {
+        width:40%;
+    }
+
+    img#lema-ugt {
+        display:none;
+    }
 }
