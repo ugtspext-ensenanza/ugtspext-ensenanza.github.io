@@ -10,11 +10,10 @@ body {
     border-top: 10px solid #c02030;
 }
 
-main,
-header,
-footer {
+#contenedor {
     background-color: white;
     max-width: 800px;
+    min-width: 500px;
     margin: auto;
     padding: 0 2em;
     /* box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8); */
@@ -30,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-top: 1.7em;
+    padding: 1.8em 2em 0 2em;
 }
 
 /*footer {
