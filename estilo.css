@@ -29,6 +29,10 @@ main {
     padding: 2em;
 }
 
+div.centrar {
+    text-align: center;
+}
+
 
 
 /****** CABECERA ******/
@@ -89,6 +93,7 @@ img {
 /****** CUADROS DESTACADOS ******/
 
 div.cuadro {
+    display: inline-block;
     border: 1px solid #aaa;
     padding: 0.7em;
     margin: 0 -0.7em 1.15em -0.7em;
