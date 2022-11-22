@@ -82,15 +82,22 @@ p {
     margin-bottom: 1em;
 }
 
+img {
+    display:block;
+}
 
-
-/****** CUADRO FLEX ******/
+/****** CUADROS DESTACADOS ******/
 
 div.cuadro {
     border: 1px solid #aaa;
     padding: 1em;
-    margin: 0 -1em 1em -1em;
+    margin: 0 -1em 1.15em -1em;
     box-shadow: 0 0.15em lightgray;
+}
+
+div.cuadro img {
+    width: 100%;
+    display:block;
 }
 
 div.fila {
