@@ -132,6 +132,11 @@ div.fila {
     text-shadow: 0 0.05em lightgrey;
 }
 
+.sinborde {
+    border: 0;
+    box-shadow: none;
+}
+
 
 /****** CAMBIOS LAYOUT POR RESOLUCIÓN ******/
 
