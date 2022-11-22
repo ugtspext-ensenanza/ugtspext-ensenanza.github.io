@@ -44,7 +44,7 @@ figure {
 h2,
 h3,
 h4 {
-    font-family: 'Ubuntu', Times, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     line-height: 1.3;
     margin-bottom: 1em;
@@ -80,9 +80,10 @@ img#lema-ugt {
 /****** CUADRO FLEX ******/
 
 div.cuadro {
-    border: 1px dotted #bbb;
+    border: 1px solid #aaa;
     padding: 1em;
     margin: 0 -1em 1em -1em;
+    box-shadow: 0 0.15em lightgray;
 }
 
 div.fila {
@@ -99,6 +100,17 @@ div.fila {
     /*width: 50%;*/
     padding: 0.5em;
     box-sizing: border-box;
+}
+
+.capitular::first-letter {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 0.2em;
+    margin-top: -0.2em;
+    float: left;
+    font-weight: 700;
+    color: #c02030;
+    text-shadow: 0 0.05em lightgrey;
 }
 
 
