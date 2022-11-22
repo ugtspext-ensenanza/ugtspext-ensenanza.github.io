@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+/****** LAYOUT BÁSICO ******/
+
 html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
@@ -27,6 +29,10 @@ main {
     padding: 2em;
 }
 
+
+
+/****** CABECERA ******/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -34,8 +40,21 @@ header {
     padding: 1.8em 2em 0 2em;
 }
 
+img#logo-ugt {
+    width: 30%;
+    min-width: 5em;
+    max-width: 10em;
+    margin-right: 1em;
+}
+
+img#lema-ugt {
+    width: 60%;
+    min-width: 10em;
+    max-width: 20em;
+}
 
 
+/****** PÁRRAFOS BÁSICOS ******/
 
 figure {
     margin-bottom: 1em;
@@ -63,18 +82,6 @@ p {
     margin-bottom: 1em;
 }
 
-img#logo-ugt {
-    width: 30%;
-    min-width: 5em;
-    max-width: 10em;
-    margin-right: 1em;
-}
-
-img#lema-ugt {
-    width: 60%;
-    min-width: 10em;
-    max-width: 20em;
-}
 
 
 /****** CUADRO FLEX ******/
@@ -83,21 +90,18 @@ div.cuadro {
     border: 1px solid #aaa;
     padding: 1em;
     margin: 0 -1em 1em -1em;
-    box-shadow: 0 0.15em lightgray;
+    /* box-shadow: 0 0.15em lightgray; */
 }
 
 div.fila {
     display: flex;
-    /*flex-direction: row;*/
     flex-wrap: wrap;
-    /*justify-content: space-around;*/
 }
 
 .elementoflex50 {
     min-width: 10em;
     flex-grow: 1;
     flex-basis: 0;
-    /*width: 50%;*/
     padding: 0.5em;
     box-sizing: border-box;
 }
@@ -110,7 +114,7 @@ div.fila {
     float: left;
     font-weight: 700;
     color: #c02030;
-    text-shadow: 0 0.05em lightgrey;
+    /* text-shadow: 0 0.05em lightgrey; */
 }
 
 
