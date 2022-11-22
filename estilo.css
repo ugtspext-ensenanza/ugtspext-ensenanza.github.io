@@ -129,11 +129,14 @@ div.fila {
 
 @media only screen and (max-width: 600px) {
     body {
+        border-top: 10px solid green;
+    }
+
+    body {
         font-size: 100%;
     }
 
     #contenedor {
-      background-color: lightblue;
       padding: 0 1em;
     }
 
@@ -147,8 +150,11 @@ div.fila {
 }
 
 @media only screen and (max-width: 400px) {
+    body {
+        border-top: 10px solid blue;
+    }
+
     #contenedor {
-      background-color: lightyellow;
       padding: 0 0.4em;
     }
 
