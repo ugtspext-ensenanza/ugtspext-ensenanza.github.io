@@ -90,7 +90,7 @@ div.cuadro {
     border: 1px solid #aaa;
     padding: 1em;
     margin: 0 -1em 1em -1em;
-    /* box-shadow: 0 0.15em lightgray; */
+    box-shadow: 0 0.15em lightgray;
 }
 
 div.fila {
@@ -114,7 +114,7 @@ div.fila {
     float: left;
     font-weight: 700;
     color: #c02030;
-    /* text-shadow: 0 0.05em lightgrey; */
+    text-shadow: 0 0.05em lightgrey;
 }
 
 
