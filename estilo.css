@@ -100,9 +100,12 @@ div.cuadro {
     box-shadow: 0 0.15em lightgray;
 }
 
-div.cuadro img {
+div.ancho {
+    margin: 0 -4em 1em -4em;
+}
+
+div.cuadro img, div.ancho img {
     width: 100%;
-    display:block;
 }
 
 div.fila {
@@ -110,7 +113,7 @@ div.fila {
     flex-wrap: wrap;
 }
 
-.elementoflex50 {
+.elementoflex {
     min-width: 10em;
     flex-grow: 1;
     flex-basis: 0;
@@ -145,6 +148,10 @@ div.fila {
       padding: 0 1em;
     }
 
+    div.ancho {
+        margin: 0 -2em 1em -2em;
+    }
+
     main {
         padding: 1.4em 1em;
     }
@@ -161,6 +168,10 @@ div.fila {
 
     #contenedor {
       padding: 0 0.4em;
+    }
+
+    div.ancho {
+        margin: 0 -1.2em 1em -1.2em;
     }
 
     main {
