@@ -29,11 +29,6 @@ main {
     padding: 2em;
 }
 
-div.centrar {
-    text-align: center;
-}
-
-
 
 /****** CABECERA ******/
 
@@ -75,7 +70,7 @@ h3 {
 
 h1 {
     font-size: 1.8em;
-    margin: 0.2em -3em 2em -3em;
+    margin: 0.2em -3em 1.5em -3em;
     padding: 0.3em 3em 0.3em 3em;
     color: white;
     background: #c02030;
@@ -83,7 +78,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 2em;
+    margin-top: 1.5em;
     font-size: 1.4em;
 }
 
@@ -108,8 +103,12 @@ img {
 
 /****** CUADROS DESTACADOS ******/
 
+div.centrar {
+    display: flex;
+    justify-content: center;
+}
+
 div.cuadro {
-    display: inline-block;
     border: 1px solid #aaa;
     padding: 0.7em;
     margin: 0 -0.7em 1.15em -0.7em;
